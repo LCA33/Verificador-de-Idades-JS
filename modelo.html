@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IDENTIFICAR PESSOAS</title>
+	<link rel="stylesheet" href="estilo.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>VERIFICADOR DE IDADE</h1>
+	</header>
+	<section>
+		<div>
+			<p>Ano de Nascimento:</p>
+			<input type="number" name="txtano" id="txtano" min="0">
+			<p>sexo:
+				<input type="radio" name="radsex" id="masc" checked>
+				<label for="masc">MASCULINO</label>
+				<input type="radio" name="radsex" id="fem">
+				<label for="fem">FEMININO</label>
+			</p>
+			<p>
+				<input type="button" value="VERIFICAR" onclick="verificar()">
+			</p>
+		</div>
+		<div id="res">
+			<br>
+			INFORME UM ANO MAIOR QUE 1960 A 2020.
+			<br>
+			<br>
+			<p>
+			</p>
+			<br>
+		</div>
+
+	</section>
+	<footer>
+		<p>&copy; Curso em Video</p>
+	</footer>
+
+</body>
+
+</html>
